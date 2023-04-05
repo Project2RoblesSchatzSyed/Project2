@@ -2,6 +2,9 @@ Team Name: Soflex Syndicate
 Group Members: Alex Schatz, Fatimah Syed, Sophia Robles
 Website: http://ryder-ripps.com
 
+New Website found here: https://project2roblesschatzsyed.github.io/Project2/
+portfolio: https://project2roblesschatzsyed.github.io/Project2/portfolio.html
+
 Page 1: Home Page 
 
 Currently: No structure beyond categorization of content. Although ironic in an artistic sense, the page is difficult to navigate and largely dysfunctional. Proposed layout follows a modernized newspaper-like “feel” as a notion to Ripps’ writing background, while maintaining a more current portfolio site.  
