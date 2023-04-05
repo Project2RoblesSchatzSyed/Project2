@@ -1,6 +1,6 @@
 Team Name: Soflex Syndicate
 Group Members: Alex Schatz, Fatimah Syed, Sophia Robles
-Website: Link
+Website: http://ryder-ripps.com
 
 Page 1: Home Page 
 
