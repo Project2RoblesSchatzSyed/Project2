@@ -3,3 +3,27 @@
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
 }
+
+#main-navbar{
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
+#navbar-container{
+  text-align: center;
+}
+#main-navbar{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+}
+#main-navbar ul li{
+  float: left;
+}
+#main-navbar ul li a{
+  position:relative;
+  display: block;
+  padding: 10px 20px;
+}
