@@ -4,8 +4,6 @@ body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
   background-color: #dbdbdb;
 }
-
-
 #main-navbar ul{
   list-style-type:none;
   margin: 0;
@@ -24,8 +22,16 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
-=======
-
+.name {
+  background-color: black;
+  color: white;
+}
+.name h1{
+  font-size: 26px;
+}
+.name p{
+  font-size: 14px;
+}
 .title h1{
   font-size: 8vw;
   margin: 3%;
