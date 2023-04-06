@@ -30,11 +30,12 @@ body{
   font-size: 26px;
   font-family: 'DM Serif Display'
 }
-.homepage {
-  width:400px;
-  height: 200px;
-  object-fit: cover;
-  max-width: 100%;
+#homepage {
+  background-image: src="images/NYThomepage.jpg";
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .name p{
   font-size: 14px;
