@@ -30,12 +30,9 @@ body{
   font-size: 26px;
   font-family: 'DM Serif Display'
 }
-#indexHome {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 #homepage {
+  height: 100%;
+  margin: 0 auto;
   padding: 0;
   display: block;
   margin: 0 auto;
