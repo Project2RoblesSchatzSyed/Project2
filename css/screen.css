@@ -31,8 +31,7 @@ body{
   font-family: 'DM Serif Display'
 }
 #homepage {
-  background-image: url("images/NYThomepage.jpg");
-  height: 100%;
+  background-image: url(../images/NYThomepage.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
