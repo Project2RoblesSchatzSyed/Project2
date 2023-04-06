@@ -4,27 +4,21 @@ body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
 }
 
-#main-navbar{
-  background-color: black;
-  overflow: hidden;
-  color: white;
-}
-#navbar-container{
-  text-align: center;
-}
-#main-navbar{
+#main-navbar ul{
   list-style-type:none;
   margin: 0;
   padding: 0;
-  position: relative;
-  display: inline-block;
+  overflow: hidden;
+  background-color: black;
+  color: white;
 }
 #main-navbar ul li{
   float: right;
 }
 #main-navbar ul li a{
-  position:relative;
   display: block;
-  padding: 10px 20px;
-  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
