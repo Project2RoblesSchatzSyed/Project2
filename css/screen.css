@@ -2,7 +2,9 @@
 
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
+  background-color: #dbdbdb;
 }
+
 
 #main-navbar ul{
   list-style-type:none;
@@ -22,10 +24,28 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
-h1{
-  font-family: 'DM Serif Display';
-  background-color: black;
-  color: white;
-  padding: 14px 16px;
-  size: 42px;
+=======
+
+.title h1{
+  font-size: 8vw;
+  margin: 3%;
 }
+.title p{
+  font-size: 2vw;
+}
+
+.port .title p{
+  padding: 3%;
+  width: 50%;
+  background-color: #806d48;
+}
+
+.port h2{
+  font-size: 4vw;
+  margin: 1%;
+}
+
+.port ol{
+  margin: 2%;
+}
+>>>>>>> 7671149140e16b97c8da6907a8df30ef4e734470
