@@ -38,6 +38,7 @@ body{
   margin: 0 auto;
   max-height: 100%;
   max-width: 100%;
+  object-fit: cover;
 }
 .name p{
   font-size: 14px;
