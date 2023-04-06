@@ -20,10 +20,11 @@ body{
   display: inline-block;
 }
 #main-navbar ul li{
-  float: left;
+  float: right;
 }
 #main-navbar ul li a{
   position:relative;
   display: block;
   padding: 10px 20px;
+  background-color: black;
 }
