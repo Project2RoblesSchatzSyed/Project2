@@ -30,15 +30,11 @@ body{
   font-size: 26px;
   font-family: 'DM Serif Display'
 }
-#homepage {
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  display: block;
-  margin: 0 auto;
-  max-height: 100%;
-  max-width: 100%;
+.homepage {
+  width:400px;
+  height: 200px;
   object-fit: cover;
+  max-width: 100%;
 }
 .name p{
   font-size: 14px;
