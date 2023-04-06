@@ -24,3 +24,26 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.title h1{
+  font-size: 8vw;
+  margin: 3%;
+}
+.title p{
+  font-size: 2vw;
+}
+
+.port .title p{
+  padding: 3%;
+  width: 50%;
+  background-color: #806d48;
+}
+
+.port h2{
+  font-size: 4vw;
+  margin: 1%;
+}
+
+.port ol{
+  margin: 2%;
+}
