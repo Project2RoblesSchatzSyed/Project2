@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
 body{
-  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
+  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
   background-color: #dbdbdb;
 }
 #main-navbar ul{
@@ -47,8 +47,10 @@ body{
 .title p{
   font-size: 2vw;
 }
-
-.port .title p{
+.port{
+  font-size: 1.5vw;
+}
+.port .top{
   padding: 3%;
   width: 50%;
   background-color: #806d48;
@@ -58,7 +60,38 @@ body{
   font-size: 4vw;
   margin: 1%;
 }
+.port a{
+  background-color:black;
+  color:white;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+}
 
 .port ol{
   margin: 2%;
+}
+.port ol li{
+  margin: 4vh 0;
+}
+.port ol li a{
+  background-color:#806d48;
+  color:white;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+
+}
+.port ol li a:hover{
+  background-color:white;
+  color:black;
+}
+.port ol li a:visited{
+  background-color:#8c7b5a;
+  color:silver;
+}
+.port ol li small{
+  background-color:white;
+  color:black;
+  font-size: 1vw;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
 }
