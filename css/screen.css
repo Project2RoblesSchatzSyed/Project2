@@ -32,7 +32,7 @@ body{
 }
 #homepage {
   background-image: url(../images/NYThomepage.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
