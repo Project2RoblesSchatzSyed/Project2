@@ -28,17 +28,19 @@ body{
 }
 .name h1{
   font-size: 26px;
-  font-family: 'DM Serif Display'
+  font-family: 'DM Serif Display';
 }
 #homepage {
   background-image: url(../images/NYThomepage.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 .name p{
   font-size: 14px;
-  font-family: 'Playfair Display';
+  font-family: 'Heebo';
+  padding: .25%;
 }
 .title h1{
   font-size: 8vw;
@@ -94,4 +96,15 @@ body{
   font-size: 1vw;
   margin: 1vh 1vw;
   padding: 1vh 1vw;
+}
+
+.about h2{
+  font-weight: bold;
+  font-size: 4vw;
+  font-family: 'Playfair Display';
+  padding: 2%;
+}
+.about p{
+  font-family: 'Heebo';
+  padding: 3%;
 }
