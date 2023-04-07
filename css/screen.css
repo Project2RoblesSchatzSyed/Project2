@@ -54,7 +54,6 @@ body{
 }
 
 .port .content p{
-
   margin:3vh 1vw;
 }
 .port .content{
@@ -112,4 +111,45 @@ body{
 .about p{
   font-family: 'Heebo';
   padding: 3%;
+}
+
+
+@media (max-width: 750px) {
+  .port{
+    font-size: 2.5vw;
+  }
+  .port .content p{
+
+    margin:2vh 2vw;
+  }
+  .port .content{
+    padding: 4%;
+    width: 100%;
+    background-color: #806d48;
+  }
+  .port ol li small{
+
+    font-size: 2vw;
+
+  }
+}
+
+@media (max-width: 250px) {
+  .port{
+    font-size: 4vw;
+  }
+  .port .content p{
+
+    margin:2vh 3vw;
+  }
+  .port .content{
+    padding:10%;
+    width: 100%;
+    background-color: #806d48;
+  }
+  .port ol li small{
+
+    font-size: 2vw;
+
+  }
 }
