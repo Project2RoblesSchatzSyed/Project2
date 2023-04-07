@@ -29,7 +29,6 @@ body{
 .name h1{
   font-size: 26px;
   font-family: 'DM Serif Display';
-  padding: 2%;
 }
 #homepage {
   background-image: url(../images/NYThomepage.jpg);
@@ -41,7 +40,7 @@ body{
 .name p{
   font-size: 14px;
   font-family: 'Heebo';
-  padding: 1%;
+  padding: .25%;
 }
 .title h1{
   font-size: 8vw;
