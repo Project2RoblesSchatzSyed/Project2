@@ -52,9 +52,14 @@ body{
 .port{
   font-size: 1.5vw;
 }
-.port .top{
-  padding: 3%;
-  width: 50%;
+
+.port .content p{
+
+  margin:3vh 1vw;
+}
+.port .content{
+  padding: 2.5%;
+  width: 45%;
   background-color: #806d48;
 }
 
@@ -62,13 +67,16 @@ body{
   font-size: 4vw;
   margin: 1%;
 }
-.port a{
+.port .content a{
   background-color:black;
   color:white;
   margin: 1vh 1vw;
-  padding: 1vh 1vw;
+  padding: 1.5vh 1.5vw;
 }
-
+.port a:hover{
+  background-color:white;
+  color:black;
+}
 .port ol{
   margin: 2%;
 }
@@ -82,10 +90,7 @@ body{
   padding: 1vh 1vw;
 
 }
-.port ol li a:hover{
-  background-color:white;
-  color:black;
-}
+
 .port ol li a:visited{
   background-color:#8c7b5a;
   color:silver;
