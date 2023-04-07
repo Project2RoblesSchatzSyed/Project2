@@ -39,7 +39,7 @@ body{
 }
 .name p{
   font-size: 14px;
-  font-family: 'Playfair Display';
+  font-family: 'Heebo';
 }
 .title h1{
   font-size: 8vw;
@@ -62,4 +62,15 @@ body{
 
 .port ol{
   margin: 2%;
+}
+
+.about h2{
+  font-weight: bold;
+  font-size: 4vw;
+  font-family: 'Playfair Display';
+  padding: 2%;
+}
+.about p{
+  font-family: 'Heebo';
+  padding: 3%;
 }
