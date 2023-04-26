@@ -4,7 +4,26 @@ $(document).ready(function() {
         alert("Thank you for filling out the form! We will be in touch with you soon!");
     }
 
-    $("#submit").on("click", sayCode);
+    function isValidEmail(email) {
+        if (email.includes("@") || email.includes(".")) {
+            return false;
+        }
+        return true;
+    }
+
+    $("#RyderForm").on("submit", function(event) {
+        event.preventDefault();
+
+        var email = $("#email").val();
+
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        sayCode();
+        $(this).submit();
+    });
 
     $("#accordion").accordion({
         collapsible: true,
