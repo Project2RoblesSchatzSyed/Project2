@@ -29,6 +29,8 @@ body{
 .name h1{
   font-size: 26px;
   font-family: 'DM Serif Display';
+  color: white;
+  text-decoration: none;
 }
 #homepage {
   background-image: url(../images/nyhomepage.jpg);
