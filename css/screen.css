@@ -29,8 +29,8 @@ body{
 .name h1{
   font-size: 26px;
   font-family: 'DM Serif Display';
-  color: white;
   text-decoration: none;
+  text-decoration-color: white;
 }
 a:link{
   text-decoration: none;
