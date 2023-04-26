@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
 body{
-  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display';
+  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
   background-color: #dbdbdb;
 }
-
-
 #main-navbar ul{
   list-style-type:none;
   margin: 0;
@@ -24,8 +22,32 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
-=======
-
+.name {
+  background-color: black;
+  color: white;
+}
+.name h1{
+  font-size: 26px;
+  font-family: 'DM Serif Display';
+  color:white;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+#homepage {
+  background-image: url(../images/nyhomepage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.name p{
+  font-size: 14px;
+  font-family: 'Heebo';
+  padding: .25%;
+}
 .title h1{
   font-size: 8vw;
   margin: 3%;
@@ -34,17 +56,137 @@ body{
   font-size: 2vw;
 }
 
-.port .title p{
-  padding: 3%;
-  width: 50%;
-  background-color: #806d48;
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-family: 'Heebo';
+  font-size: 2vw;
+  background-color: #FEFEFE;
+  cursor: pointer;
+  margin: 2vh 4vw;
+  padding: 18px;
+  width: 80%;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #A6A6A6;
+}
+
+.panel {
+  padding: 0 3vw;
+  display: none;
+  overflow: hidden;
+}
+
+.port{
+  font-size: 1.5vw;
+}
+
+.content{
+  font-size: 2Vh;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+}
+
+.port .content p {
+  margin:3.5vh 1vw;
+}
+.port .content{
+  padding: 2vh 2vw;
+  width: 65%;
 }
 
 .port h2{
   font-size: 4vw;
   margin: 1%;
 }
-
+.port .content a{
+  background-color:black;
+  color:white;
+  margin: 1vh 1vw;
+  padding: 1.5vh 1.5vw;
+}
+.port a:hover{
+  background-color:white;
+  color:black;
+}
 .port ol{
   margin: 2%;
+}
+.port ol li{
+  margin: 5vh 0;
+}
+.port ol li a{
+  background-color:#806d48;
+  color:white;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+
+}
+
+.port ol li a:visited{
+  background-color:#8c7b5a;
+  color:silver;
+}
+.port ol li small{
+  background-color:white;
+  color:black;
+  font-size: 1.5vw;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+}
+
+.about h2{
+  font-weight: bold;
+  font-size: 4vw;
+  font-family: 'Playfair Display';
+  padding: 2%;
+}
+.about p{
+  font-family: 'Heebo';
+  padding: 3%;
+}
+
+
+@media (max-width: 750px) {
+  .port{
+    font-size: 2.5vw;
+  }
+  .port .content p{
+
+    margin:2vh 2vw;
+  }
+  .port .content{
+    padding: 4%;
+    width: 100%;
+    background-color: #806d48;
+  }
+  .port ol li small{
+
+    font-size: 2vw;
+
+  }
+}
+
+@media (max-width: 250px) {
+  .port{
+    font-size: 4vw;
+  }
+  .port .content p{
+
+    margin:2vh 3vw;
+  }
+  .port .content{
+    padding:10%;
+    width: 100%;
+    background-color: #806d48;
+  }
+  .port ol li small{
+
+    font-size: 2vw;
+
+  }
 }

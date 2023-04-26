@@ -4,3 +4,12 @@ function sayCode() {
 }
 
 document.getElementById("submit").onclick = sayCode;
+
+
+    $( function() {
+    $( "#accordion" ).accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+    });
+} );
