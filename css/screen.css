@@ -29,20 +29,11 @@ body{
 .name h1{
   font-size: 26px;
   font-family: 'DM Serif Display';
-  text-decoration: none;
-  text-decoration-color: white;
+  color:white;
 }
-a:link{
+a{
   text-decoration: none;
-}
-a:visited{
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: none;
-}
-a:active{
-  text-decoration: none;
+  color:white;
 }
 #homepage {
   background-image: url(../images/nyhomepage.jpg);
