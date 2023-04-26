@@ -53,24 +53,25 @@ body{
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  font-family: 'Heebo';
+  font-size: 2vw;
+  background-color: #FEFEFE;
   cursor: pointer;
+  margin: 2vh 4vw;
   padding: 18px;
-  width: 100%;
-  text-align: left;
+  width: 80%;
+  text-align: center;
   border: none;
   outline: none;
-  transition: 0.4s;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #A6A6A6;
 }
 
 .panel {
-  padding: 0 1vw;
+  padding: 0 3vw;
   display: none;
   overflow: hidden;
 }
@@ -79,12 +80,18 @@ body{
   font-size: 1.5vw;
 }
 
-.port .content p{
-  margin:3vh 1vw;
+.content{
+  background-color: #806d48;
+  font-size: 2Vh;
+  font-family: 'Playfair Display';
+}
+
+.port .content p {
+  margin:3.5vh 1vw;
 }
 .port .content{
-  padding: 2.5%;
-  width: 45%;
+  padding: 2vh 2vw;
+  width: 65%;
   background-color: #806d48;
 }
 
@@ -106,7 +113,7 @@ body{
   margin: 2%;
 }
 .port ol li{
-  margin: 4vh 0;
+  margin: 5vh 0;
 }
 .port ol li a{
   background-color:#806d48;
@@ -123,7 +130,7 @@ body{
 .port ol li small{
   background-color:white;
   color:black;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin: 1vh 1vw;
   padding: 1vh 1vw;
 }
