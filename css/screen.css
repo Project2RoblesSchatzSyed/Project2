@@ -81,9 +81,9 @@ body{
 }
 
 .content{
-  background-color: #806d48;
   font-size: 2Vh;
   font-family: 'Playfair Display';
+  font-weight: bold;
 }
 
 .port .content p {
@@ -92,7 +92,6 @@ body{
 .port .content{
   padding: 2vh 2vw;
   width: 65%;
-  background-color: #806d48;
 }
 
 .port h2{
