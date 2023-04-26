@@ -29,9 +29,14 @@ body{
 .name h1{
   font-size: 26px;
   font-family: 'DM Serif Display';
+  color:white;
+}
+a{
+  text-decoration: none;
+  color:white;
 }
 #homepage {
-  background-image: url(../images/NYThomepage.jpg);
+  background-image: url(../images/nyhomepage.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
