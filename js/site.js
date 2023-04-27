@@ -5,20 +5,18 @@ $(document).ready(function() {
     }
 
     function isValidEmail(email) {
-        if (!email.includes("@") || !email.includes(".")) {
+        if (!email.indexOf('@') == -1 || !email.indexOf('.') == -1) {
             return false;
         }
         return true;
     }
 
     $("#RyderForm").on("submit", function(event) {
-        event.preventDefault();
-
         var email = $("#email").val();
 
         if (!isValidEmail(email)) {
             alert("Please enter a valid email address.");
-            return;
+            return false;
         }
 
         sayCode();
