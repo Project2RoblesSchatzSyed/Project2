@@ -299,6 +299,13 @@ input[type=submit]:hover {
     display: none;
   }
 
+  .collapsible-menu label {
+    font-size: 5vw;
+  }
+  .collapsible-menu a {
+    font-size: 4vw;
+  }
+
   .port{
     font-size: 2.5vw;
   }
