@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
 /* Collapsible menu in mobile view  */
-@media (max-width: 320px){
-  #main-navbar{
-    display: none;
-  }
-}
 .collapsible-menu {
   background-color: black;
   padding: 0px 30px;
@@ -41,13 +36,13 @@ input#menu {
 input:checked ~ .menu-content {
   max-height: 100%;
 }
-
-/* regular navigation in desktop view, hidden from mobile view  */
-@media (min-width:751px){
-  .collapsible-menu {
-    display:none;
+@media (max-width: 320px){
+  #main-navbar{
+    display: none;
   }
 }
+
+/* regular navigation in desktop view, hidden from mobile view  */
 #main-navbar{
   display:block;
 }
@@ -69,7 +64,6 @@ input:checked ~ .menu-content {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
@@ -330,3 +324,13 @@ input[type=submit]:hover {
   background-color: #806d48;	
 }
 
+@media (max-width: 750px){
+  #main-navbar{
+    display: none;
+  }
+}
+@media (min-width:751px){
+  .collapsible-menu {
+    display:none;
+  }
+}
