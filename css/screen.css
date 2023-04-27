@@ -269,30 +269,32 @@ body{
 
   }
 }
+
 /*
-h2{
+.social h2{
   color: black;
   padding: .25%;
   font-size: 40px;
   padding: 16px;
 }
 
-a{
+.social a{
+  color: black;
+  background-color: #806d48;
+  padding: .25%;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.social p{
   color: black;
   padding: .25%;
   font-size: 16px;
   padding: 16px;
 }
 
-p{
-  color: black;
-  padding: .25%;
-  font-size: 16px;
-  padding: 16px;
-}
-
-form{
-  background-color: 806d48;
+.social form{
+  background-color: #806d48;
   width: auto;
   margin-right: 20%;
   margin-left: 20%;
@@ -300,7 +302,7 @@ form{
   padding: 10px;
 }
 
-label{
+.social label{
   color: white;
   display: block;
   font-size: 16px;
@@ -318,7 +320,7 @@ input[type="email"]{
 }
 
 #submit{
-  color: white;
+  color: black;
   text-align: center;
   font-size: 16px;
   padding: 5px;
@@ -327,6 +329,6 @@ input[type="email"]{
 }
 
 input[type=submit]:hover {
-  background-color: black;	
+  background-color: #806d48;	
 }
 */
