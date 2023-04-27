@@ -42,13 +42,13 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
 
-/* regular navigation in desktop view, hidden from mobile view  
+/* regular navigation in desktop view, hidden from mobile view  */
 @media (min-width:751px){
   .collapsible-menu {
     display:none;
   }
 }
-*/
+
 #main-navbar{
   display:block;
 }
@@ -270,7 +270,6 @@ body{
   }
 }
 
-/*
 .social h2{
   color: black;
   padding: .25%;
@@ -331,4 +330,4 @@ input[type="email"]{
 input[type=submit]:hover {
   background-color: #806d48;	
 }
-*/
+
