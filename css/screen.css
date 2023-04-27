@@ -259,7 +259,7 @@ body{
 }
 
 input[type="text"]{
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 10px;
   width: 100%;
@@ -267,7 +267,7 @@ input[type="text"]{
 }
 
 input[type="email"]{
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 10px;
   width: 100%;
@@ -278,8 +278,7 @@ input[type="email"]{
   color: black;
   text-align: center;
   font-size: 16px;
-  padding: 5px;
-  padding-top: 5px;
+  padding: 10px;
   width: 100%;
   box-sizing: border-box;
 }
