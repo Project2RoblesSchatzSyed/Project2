@@ -5,7 +5,7 @@ $(document).ready(function() {
     }
 
     function isValidEmail(email) {
-        if (email.includes("@") || email.includes(".")) {
+        if (!email.includes("@") || !email.includes(".")) {
             return false;
         }
         return true;
@@ -22,7 +22,6 @@ $(document).ready(function() {
         }
 
         sayCode();
-        $(this).submit();
     });
 
     $("#accordion").accordion({
