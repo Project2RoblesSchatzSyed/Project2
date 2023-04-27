@@ -190,3 +190,60 @@ a{
 
   }
 }
+
+
+h2{
+  color: black;
+  padding: .25%;
+  font-size: 40px;
+  padding: 16px;
+}
+
+a{
+  color: black;
+  padding: .25%;
+  font-size: 16px;
+  padding: 16px;
+}
+
+p{
+  color: black;
+  padding: .25%;
+  font-size: 16px;
+  padding: 16px;
+}
+
+form{
+  background-color: 806d48;
+  width: auto;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+label{
+  color: white;
+  display: block;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="email"]{
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#submit{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
