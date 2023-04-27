@@ -48,16 +48,21 @@ input:checked ~ .menu-content {
   padding: 0;
   overflow: hidden;
   background-color: black;
+  padding: 10px 20px;
 }
 #main-navbar ul li{
   float: right;
+  margin-left: 10px;
+  background-color: white;
+  border:1px black;
 }
 #main-navbar ul li a{
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 10px 5px 0px 5px;
-  color: white;
+  padding: 10px;
+  color: black;
+  font-size: 14px;
 }
 
 body{
