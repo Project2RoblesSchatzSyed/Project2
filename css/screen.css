@@ -269,14 +269,14 @@ body{
 }
 
 /*
-h2{
+.social h2{
   color: black;
   padding: .25%;
   font-size: 40px;
   padding: 16px;
 }
 
-a{
+.social a{
   color: black;
   background-color: #806d48;
   padding: .25%;
@@ -284,14 +284,14 @@ a{
   padding: 16px;
 }
 
-p{
+.social p{
   color: black;
   padding: .25%;
   font-size: 16px;
   padding: 16px;
 }
 
-form{
+.social form{
   background-color: #806d48;
   width: auto;
   margin-right: 20%;
