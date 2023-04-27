@@ -1,8 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
-body{
-  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
-  background-color: #dbdbdb;
+/* Collapsible menu in mobile view  */
+@media (max-width: 750px){
+  #main-navbar{
+    display: none;
+  }
+}
+.collapsible-menu {
+  background-color: black;
+  padding: 0px 30px;
+  color: white;
+  text-align: right;
+}
+.collapsible-menu label {
+  font-family: 'DM Serif Display';
+  font-size: 20px;
+  display: block;
+  padding: 10px 0px 0px 0px;
+}
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: 'Heebo';
+  padding: .25%;
+}
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display:block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+input#menu {
+  display: none;
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+/* regular navigation in desktop view, hidden from mobile view  */
+@media (min-width:751px){
+  .collapsible-menu {
+    display:none;
+  }
+#main-navbar{
+  display:block;
 }
 #main-navbar ul{
   list-style-type:none;
@@ -22,18 +67,30 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
+}
+body{
+  font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
+  background-color: #dbdbdb;
+}
 .name {
   background-color: black;
   color: white;
+  padding: 0px 10px 10px 10px;
 }
 .name h1{
-  font-size: 26px;
+  font-size: 32px;
   font-family: 'DM Serif Display';
   color:white;
+  padding-bottom: 2%;
 }
-a{
+.name a{
   text-decoration: none;
   color:white;
+}
+.name p{
+  font-size: 14px;
+  font-family: 'Heebo';
+  padding-bottom: 1.5;
 }
 #homepage {
   background-image: url(../images/nyhomepage.jpg);
@@ -43,11 +100,6 @@ a{
   background-attachment: fixed;
   height: 100%;
 }
-.name p{
-  font-size: 14px;
-  font-family: 'Heebo';
-  padding: .25%;
-}
 .title h1{
   font-size: 8vw;
   margin: 3%;
@@ -55,7 +107,6 @@ a{
 .title p{
   font-size: 2vw;
 }
-
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   font-family: 'Heebo';
@@ -143,13 +194,35 @@ a{
   font-weight: bold;
   font-size: 4vw;
   font-family: 'Playfair Display';
-  padding: 2%;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-left: 3%;
+}
+.about img{
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: auto;
 }
 .about p{
   font-family: 'Heebo';
+  text-align: justify;
+  display: inline-block;
   padding: 3%;
+  width: 45%;
 }
-
+@media (max-width: 320px) {
+  .about h2{
+    font-size: x-large;
+  }
+  .about p{
+    width:90%;
+  }
+  .about img{
+    flex-direction: column;
+    width: 98%;
+  }
+}
 
 @media (max-width: 750px) {
   .port{
