@@ -267,6 +267,7 @@ body{
 
   }
 }
+
 /*
 h2{
   color: black;
@@ -277,6 +278,7 @@ h2{
 
 a{
   color: black;
+  background-color: #806d48;
   padding: .25%;
   font-size: 16px;
   padding: 16px;
@@ -290,7 +292,7 @@ p{
 }
 
 form{
-  background-color: 806d48;
+  background-color: #806d48;
   width: auto;
   margin-right: 20%;
   margin-left: 20%;
@@ -316,7 +318,7 @@ input[type="email"]{
 }
 
 #submit{
-  color: white;
+  color: black;
   text-align: center;
   font-size: 16px;
   padding: 5px;
@@ -325,6 +327,6 @@ input[type="email"]{
 }
 
 input[type=submit]:hover {
-  background-color: black;	
+  background-color: #806d48;	
 }
 */
