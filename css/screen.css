@@ -3,15 +3,16 @@
 /* Collapsible menu in mobile view  */
 .collapsible-menu {
   background-color: black;
-  padding: 0px 30px;
+  padding: 0px 10px 0px 30px;
   color: white;
   text-align: right;
 }
 .collapsible-menu label {
   font-family: 'DM Serif Display';
   font-size: 20px;
-  display: block;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 5px 0px 5px;
+  background-color: white;
+  color: black;
 }
 .menu-content {
   max-height: 0;
