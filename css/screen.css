@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
 /* Collapsible menu in mobile view  */
-@media (max-width: 750px){
+@media (max-width: 320px){
   #main-navbar{
     display: none;
   }
