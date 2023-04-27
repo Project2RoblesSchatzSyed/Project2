@@ -38,7 +38,7 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
 
-/* regular navigation in desktop view, hidden from mobile view  */
+/* regular navigation in desktop view*/
 #main-navbar{
   display:block;
 }
@@ -48,17 +48,16 @@ input:checked ~ .menu-content {
   padding: 0;
   overflow: hidden;
   background-color: black;
-  color: white;
 }
 #main-navbar ul li{
   float: right;
 }
 #main-navbar ul li a{
   display: block;
-  color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 10px 5px 0px 5px;
+  color: white;
 }
 
 body{
