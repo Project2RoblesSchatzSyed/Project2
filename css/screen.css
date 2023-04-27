@@ -1,80 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
-/* Collapsible menu in mobile view */
-@media (max-width: 750px) {
-  #main-navbar {
-    display: none;
-  }
-  .collapsible-menu {
-    background-color: black;
-    padding: 0px 30px;
-    color: white;
-    text-align: right;
-  }
-  .collapsible-menu label {
-    font-family: 'DM Serif Display';
-    font-size: 20px;
-    display: block;
-    padding: 10px 0px 0px 0px;
-  }
-  .menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-size: 14px;
-    font-family: 'Heebo';
-    padding: .25%;
-  }
-  .collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  .collapsible-menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-  }
-  input#menu {
-    display: none;
-  }
-  input:checked ~ .menu-content {
-    max-height: 100%;
-  }
-}
 
-/* Regular navigation in desktop view */
-@media (min-width: 751px) {
-  .collapsible-menu {
-    display: none;
-  }
-  #main-navbar {
-    display: block;
-  }
-  #main-navbar ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    color: white;
-  }
-  #main-navbar ul li {
-    float: right;
-  }
-  #main-navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-}
-
-/* Collapsible menu in mobile view  
-@media (max-width: 320px){
+/* Collapsible menu in mobile view  */
+@media (max-width: 750px){
   #main-navbar{
     display: none;
   }
-}
+
 .collapsible-menu {
   background-color: black;
   padding: 0px 30px;
@@ -110,9 +41,10 @@ input#menu {
 input:checked ~ .menu-content {
   max-height: 100%;
 }
+}
 
-/* regular navigation in desktop view, hidden from mobile view  
-@media (min-width:750px){
+/* regular navigation in desktop view, hidden from mobile view  */
+@media (min-width:751px){
   .collapsible-menu {
     display:none;
   }
@@ -138,7 +70,7 @@ input:checked ~ .menu-content {
   text-decoration: none;
 }
 }
-*/
+
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
   background-color: #dbdbdb;
