@@ -104,10 +104,9 @@ body{
 .title p{
   font-size: 2vw;
 }
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   font-family: 'Heebo';
-  font-size: 2vw;
+  font-size: 2vh;
   background-color: #FEFEFE;
   cursor: pointer;
   margin: 2vh 4vw;
@@ -118,7 +117,6 @@ body{
   outline: none;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #A6A6A6;
 }
@@ -154,8 +152,8 @@ body{
 .port .content a{
   background-color:black;
   color:white;
-  margin: 1vh 1vw;
-  padding: 1.5vh 1.5vw;
+  margin: 3vh 1vw;
+  padding: 2.5vh 1.5vw;
 }
 .port a:hover{
   background-color:white;
@@ -295,6 +293,8 @@ input[type=submit]:hover {
 
   }
 }
+
+
 /* hide collapsible view navbar in desktop view*/
 @media (min-width:751px){
   .collapsible-menu {
