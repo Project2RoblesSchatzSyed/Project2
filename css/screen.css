@@ -15,7 +15,7 @@
 .collapsible-menu label {
   font-family: 'DM Serif Display';
   font-size: 20px;
-  /*display: block;*/
+  display: block;
   padding: 10px 0px 0px 0px;
 }
 .menu-content {
@@ -42,11 +42,13 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
 
-/* regular navigation in desktop view, hidden from mobile view  */
+/* regular navigation in desktop view, hidden from mobile view  
 @media (min-width:751px){
   .collapsible-menu {
     display:none;
   }
+}
+*/
 #main-navbar{
   display:block;
 }
@@ -68,7 +70,7 @@ input:checked ~ .menu-content {
   padding: 14px 16px;
   text-decoration: none;
 }
-}
+
 
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
