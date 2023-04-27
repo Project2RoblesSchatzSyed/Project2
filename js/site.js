@@ -5,7 +5,7 @@ $(document).ready(function() {
     }
 
     function isValidEmail(email) {
-        if (!email.indexOf('@') == -1 || !email.indexOf('.') == -1) {
+        if (email.length > 254 || !email.includes("@") || !email.includes(".")) {
             return false;
         }
         return true;
@@ -28,19 +28,3 @@ $(document).ready(function() {
         heightStyle: "content"
     });
 });
-
-
-
-// Function to display message after submit
-//function sayCode() {
-//   alert("Thank you for filling out the form! We will be in touch with you soon!");
-//}
-//document.getElementById("submit").onclick = sayCode;
-//
-//    $( function() {
-//    $( "#accordion" ).accordion({
-//        collapsible: true,
-//        active: false,
-//        heightStyle: "content"
-//    });
-//} );
