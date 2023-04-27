@@ -3,14 +3,14 @@
 /* Collapsible menu in mobile view  */
 .collapsible-menu {
   background-color: black;
-  padding: 0px 10px 0px 30px;
+  padding: 10px 10px 0px 30px;
   color: white;
   text-align: right;
 }
 .collapsible-menu label {
   font-family: 'DM Serif Display';
   font-size: 20px;
-  padding: 10px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
   background-color: white;
   color: black;
 }
@@ -48,16 +48,21 @@ input:checked ~ .menu-content {
   padding: 0;
   overflow: hidden;
   background-color: black;
+  padding: 10px 20px;
 }
 #main-navbar ul li{
   float: right;
+  margin-left: 10px;
+  background-color: white;
+  border:1px black;
 }
 #main-navbar ul li a{
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 10px 5px 0px 5px;
-  color: white;
+  padding: 10px;
+  color: black;
+  font-size: 14px;
 }
 
 body{
@@ -259,7 +264,7 @@ body{
 }
 
 input[type="text"]{
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 10px;
   width: 100%;
@@ -267,7 +272,7 @@ input[type="text"]{
 }
 
 input[type="email"]{
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 10px;
   width: 100%;
@@ -278,8 +283,7 @@ input[type="email"]{
   color: black;
   text-align: center;
   font-size: 16px;
-  padding: 5px;
-  padding-top: 5px;
+  padding: 10px;
   width: 100%;
   box-sizing: border-box;
 }
