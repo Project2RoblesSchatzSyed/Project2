@@ -334,6 +334,7 @@ input[type="email"]{
   text-align: center;
   font-size: 16px;
   padding: 5px;
+  padding-top: 5px;
   width: 100%;
   box-sizing: border-box;
 }
