@@ -43,7 +43,7 @@ input:checked ~ .menu-content {
 }
 
 /* regular navigation in desktop view, hidden from mobile view  */
-@media (min-width:320px){
+@media (min-width:751px){
   .collapsible-menu {
     display:none;
   }
