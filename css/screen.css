@@ -215,7 +215,7 @@ body{
   padding: .25%;
   font-size: 40px;
   padding: 16px;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .contactme h2{
@@ -232,13 +232,6 @@ body{
   font-size: 16px;
   margin: 1vh 1vw;
   padding: 1vh 1vw;
-}
-
-.social p{
-  color: black;
-  padding: .50%;
-  font-size: 16px;
-  padding: 16px;
 }
 
 .contactmep p{
@@ -267,7 +260,14 @@ body{
   padding: 10px;
 }
 
-input[type="text"],
+input[type="text"]{
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 input[type="email"]{
   color: white;
   font-size: 16px;
