@@ -271,9 +271,12 @@ input[type=submit]:hover {
   background-color: #806d48;	
 }
 
+/* adjust css for mobile experience*/
+@media (max-width: 750px){
+  #main-navbar{
+    display: none;
+  }
 
-
-@media (max-width: 750px) {
   .port{
     font-size: 2.5vw;
   }
@@ -292,8 +295,25 @@ input[type=submit]:hover {
 
   }
 }
+/* hide collapsible view navbar in desktop view*/
+@media (min-width:751px){
+  .collapsible-menu {
+    display:none;
+  }
+}
+/* adjust sheets for extra small screens */
+@media (max-width: 300px) {
+  .about h2{
+    font-size: x-large;
+  }
+  .about p{
+    width:90%;
+  }
+  .about img{
+    flex-direction: column;
+    width: 98%;
+  }
 
-@media (max-width: 250px) {
   .port{
     font-size: 4vw;
   }
@@ -310,31 +330,5 @@ input[type=submit]:hover {
 
     font-size: 2vw;
 
-  }
-}
-
-/* hide desktop view navbar in mobile*/
-@media (max-width: 750px){
-  #main-navbar{
-    display: none;
-  }
-}
-/* hide collapsible view navbar in desktop view*/
-@media (min-width:751px){
-  .collapsible-menu {
-    display:none;
-  }
-}
-/* format about page to column view in mobile*/
-@media (max-width: 320px) {
-  .about h2{
-    font-size: x-large;
-  }
-  .about p{
-    width:90%;
-  }
-  .about img{
-    flex-direction: column;
-    width: 98%;
   }
 }
