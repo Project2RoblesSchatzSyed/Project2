@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" media="screen" href="css/screen.css">
-  <script src="js/site.js" async></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/site.js"></script>
 </head>
 <body>
 <!-- Directory -->
@@ -48,7 +50,7 @@
 <main id="content">
 <h2> Contact Me</h2>
 <p>Please fill out this form to contact Ryder Ripps.</p>
-<form method="get" action="#null" autocomplete="on">
+<form id="RyderForm" method="get" action="#null" autocomplete="on">
   <ol>
     <li id="firstname">
       <label for="first">First Name </label>
@@ -60,7 +62,7 @@
     </li>
     <li id="emailaddress">
       <label for="email">Email </label>
-      <input type="email" name="email"  placeholder="Enter your email">
+      <input  name="email"  placeholder="Enter your email">
     </li>
     <li id="description">
       <label for="descrip">Description </label>
