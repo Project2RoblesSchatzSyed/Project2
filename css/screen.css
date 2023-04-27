@@ -41,6 +41,7 @@ input#menu {
 input:checked ~ .menu-content {
   max-height: 100%;
 }
+
 /* regular navigation in desktop view, hidden from mobile view  */
 @media (min-width:751px){
   .collapsible-menu {
@@ -68,6 +69,7 @@ input:checked ~ .menu-content {
   text-decoration: none;
 }
 }
+
 body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
   background-color: #dbdbdb;
