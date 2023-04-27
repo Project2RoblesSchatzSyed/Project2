@@ -36,11 +36,6 @@ input#menu {
 input:checked ~ .menu-content {
   max-height: 100%;
 }
-@media (max-width: 320px){
-  #main-navbar{
-    display: none;
-  }
-}
 
 /* regular navigation in desktop view, hidden from mobile view  */
 #main-navbar{
@@ -69,6 +64,8 @@ body{
   font-family: 'Heebo', 'Playfair Display', 'DM Serif Display', arial;
   background-color: #dbdbdb;
 }
+
+/* styling for heading bar */
 .name {
   background-color: black;
   color: white;
@@ -188,7 +185,7 @@ body{
   margin: 1vh 1vw;
   padding: 1vh 1vw;
 }
-
+/* about page styling in desktop view*/
 .about h2{
   font-weight: bold;
   font-size: 4vw;
@@ -210,18 +207,7 @@ body{
   padding: 3%;
   width: 45%;
 }
-@media (max-width: 320px) {
-  .about h2{
-    font-size: x-large;
-  }
-  .about p{
-    width:90%;
-  }
-  .about img{
-    flex-direction: column;
-    width: 98%;
-  }
-}
+
 
 @media (max-width: 750px) {
   .port{
@@ -323,14 +309,28 @@ input[type="email"]{
 input[type=submit]:hover {
   background-color: #806d48;	
 }
-
+/* hide desktop view navbar in mobile*/
 @media (max-width: 750px){
   #main-navbar{
     display: none;
   }
 }
+/* hide collapsible view navbar in desktop view*/
 @media (min-width:751px){
   .collapsible-menu {
     display:none;
+  }
+}
+/* format about page to column view in mobile*/
+@media (max-width: 320px) {
+  .about h2{
+    font-size: x-large;
+  }
+  .about p{
+    width:90%;
+  }
+  .about img{
+    flex-direction: column;
+    width: 98%;
   }
 }
