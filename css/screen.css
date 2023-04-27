@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo&family=Playfair+Display&display=swap');
 
 /* Collapsible menu in mobile view  */
-@media (max-width: 750px){
+@media (max-width: 320px){
   #main-navbar{
     display: none;
   }
@@ -43,7 +43,7 @@ input:checked ~ .menu-content {
 }
 
 /* regular navigation in desktop view, hidden from mobile view  */
-@media (min-width:751px){
+@media (min-width:750px){
   .collapsible-menu {
     display:none;
   }
@@ -95,6 +95,7 @@ body{
   padding-bottom: 1.5;
   color: white;
 }
+
 #homepage {
   background-image: url(../images/nyhomepage.jpg);
   background-position: center center;
@@ -266,8 +267,7 @@ body{
 
   }
 }
-
-
+/*
 h2{
   color: black;
   padding: .25%;
@@ -327,4 +327,4 @@ input[type="email"]{
 input[type=submit]:hover {
   background-color: black;	
 }
-
+*/
