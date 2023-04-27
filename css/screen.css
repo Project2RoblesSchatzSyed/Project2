@@ -300,7 +300,7 @@ body{
   padding: 10px;
 }
 
-label{
+.social label{
   color: white;
   display: block;
   font-size: 16px;
