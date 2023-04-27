@@ -43,12 +43,11 @@ input:checked ~ .menu-content {
 }
 
 /* regular navigation in desktop view, hidden from mobile view  */
-@media (min-width:751px){
+@media (min-width:320px){
   .collapsible-menu {
     display:none;
   }
 }
-
 #main-navbar{
   display:block;
 }
